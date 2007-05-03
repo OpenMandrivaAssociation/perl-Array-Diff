@@ -11,6 +11,8 @@ Url:		http://search.cpan.org/dist/%{realname}
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	perl-devel
 BuildRequires:	perl(Module::Build)
+BuildRequires:	perl(Class::Accessor::Fast)
+BuildRequires:	perl(Algorithm::Diff)
 BuildArch: noarch
 
 %description
