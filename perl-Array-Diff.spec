@@ -8,6 +8,7 @@ Group:		Development/Perl
 Summary:    This module do diff two arrays, and return added and deleted arrays 
 Source0:    ftp://ftp.perl.org/pub/CPAN/modules/by-module/Array/Array-Diff-%{version}.tar.bz2
 Url:		http://search.cpan.org/dist/%{realname}
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	perl-devel
 BuildRequires:	perl(Module::Build)
 BuildRequires:	perl(Class::Accessor::Fast)
