@@ -2,8 +2,8 @@
 
 Summary:	This module do diff two arrays, and return added and deleted arrays 
 Name:		perl-%{realname}
-Version:	0.04
-Release:	%mkrel 2
+Version:	0.05
+Release:	%mkrel 1
 License:	Artistic or GPL
 Group:		Development/Perl
 URL:		http://search.cpan.org/dist/%{realname}
