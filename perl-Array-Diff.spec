@@ -2,7 +2,7 @@
 %define upstream_version 0.05002
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_name}
+Version:	%perl_convert_version %{upstream_version}
 Release:	%mkrel 1
 
 Summary:	This module do diff two arrays, and return added and deleted arrays 
